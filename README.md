@@ -157,7 +157,7 @@ REACT_APP_API_URL=https://llm-graph-line-chat.onrender.com
 
 Frontend URL:
 
-<https://llm-graph-line-chat-934m2kb9i.vercel.app/>
+<https://llm-graph-line-chat.vercel.app/>
 
 ---
 
@@ -225,7 +225,7 @@ Example:
 
 - GitHub Repo: <https://github.com/Monu9500/LLM-GRAPH-LINE-CHAT>
 - Backend: <https://llm-graph-line-chat.onrender.com>
-- Frontend: <https://llm-graph-line-chat-934m2kb9i.vercel.app/>
+- Frontend: <https://llm-graph-line-chat.vercel.app/>
 
 ---
 
@@ -233,7 +233,7 @@ Example:
 
 ## 🔗 Working Demo Links
 
-- 🌐 **Frontend (Vercel):** <https://llm-graph-line-chat-934m2kb9i.vercel.app/> 
+- 🌐 **Frontend (Vercel):** <https://llm-graph-line-chat.vercel.app/>
 - ⚙️ **Backend (Render):** <https://llm-graph-line-chat.onrender.com>  
 
 ---
