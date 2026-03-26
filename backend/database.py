@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-URI = "neo4j://127.0.0.1:7687"
+URI = "neo4j+s://5ecb28bc.databases.neo4j.io"
 USERNAME = "neo4j"
 PASSWORD = "w842g0vi7gKSZMIPeLIA5AzEvohmGfgNpf72frqEoY8"
 
