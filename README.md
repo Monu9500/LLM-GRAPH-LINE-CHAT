@@ -224,10 +224,69 @@ Example:
 ## 🔗 Important Links
 
 - GitHub Repo: <https://github.com/Monu9500/LLM-GRAPH-LINE-CHAT>
-- Backend: https://llm-graph-line-chat.onrender.com
+- Backend: <https://llm-graph-line-chat.onrender.com>
 - Frontend: <https://llm-graph-line-chat-934m2kb9i.vercel.app/>
 
 ---
+
+# 📦 **Submission Details**
+
+## 🔗 Working Demo Links
+
+- 🌐 **Frontend (Vercel):** <https://llm-graph-line-chat-934m2kb9i.vercel.app/> 
+- ⚙️ **Backend (Render):** <https://llm-graph-line-chat.onrender.com>  
+
+---
+
+## 💻 **GitHub Repository**
+
+- 🔗 Repo: <https://github.com/Monu9500/LLM-GRAPH-LINE-CHAT>
+
+---
+
+## 🏗️ **Architecture Overview**
+
+This project follows a **full-stack architecture**:
+
+- **Frontend (React)**  
+  - Handles UI, chat interface, and graph visualization  
+  - Sends user queries to backend APIs  
+
+- **Backend (FastAPI)**  
+  - Processes user input  
+  - Connects to Neo4j database  
+  - Executes graph queries  
+  - Returns structured + graph data  
+
+- **Database (Neo4j)**  
+  - Stores data as nodes and relationships  
+  - Enables efficient graph traversal and querying  
+
+---
+
+## 🧠 **Database Choice (Why Neo4j?)**
+
+Neo4j was chosen because:
+
+- Graph databases are ideal for **relationship-heavy data**
+- Enables **fast traversal queries**
+- Better suited than SQL for:
+  - Customer → Order → Invoice → Payment flows
+- Supports **Cypher query language**, which is intuitive for graph operations
+
+---
+
+## 🤖 **LLM Prompting Strategy**
+
+The AI Agent works using the following approach:
+
+1. Accepts user query in **natural language**
+2. Converts query into **structured Cypher query**
+3. Executes query in Neo4j
+4. Returns:
+   - Graph data
+   - Structured response
+
 
 ## 👨‍💻 Author
 
@@ -237,6 +296,7 @@ Pritam Ghosh
 
 ---
 
+## My GPT PROMPT: <https://chatgpt.com/g/g-p-69c35f2987b08191b7972b1c1347dc4e-graph-based-data-modeling-and/project>
 
 ## 🎉 Conclusion
 
